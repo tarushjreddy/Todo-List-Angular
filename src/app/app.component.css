@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+#logo {
+  height: 200px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.container {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 800;
+  color: black;
+}
+* {
+  margin: 0px;
+  text-align: center;
+  /* background-color: black; */
+  font-family: "Poppins", sans-serif;
+}
+hr {
+  margin-right: 90px;
+  margin-left: 90px;
+  display: block;
+}
+/* .add-todo {
+  height: 50px;
+  width: 50px;
+  box-shadow: 0.5px 0.5px 5px #34495e;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 39px;
+}
+.add-todo:hover {
+  transform: scale(1.09);
+  transition: all 0.2s;
+} */
+.orient {
+  display: flex;
+  margin-top: 30px;
+  margin-right: 90px;
+  margin-left: 90px;
+  /* display: block; */
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+input {
+  border-radius: 40px;
+  margin-right: 10px;
+  height: 60px;
+  width: 400px;
+  border: red;
+  background-color: #ecf0f1;
+
+  outline: none;
+}
+.pop {
+  font-size: 20px;
+}
+#one {
+  margin-right: 290px;
+  margin-left: 290px;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+button {
+  padding: 5px;
+  outline: none;
+  border: none;
+  margin: 10px;
+  color: white;
+  transform: scale(1.22);
+  transition: all 0.2s;
+  border-radius: 5px;
+}
+#c:hover {
+  background-color: #a29bfe;
+  color: white;
+  transform: scale(1.22);
+  transition: all 0.2s;
+}
+#d:hover {
+  background-color: #a29bfe;
+  color: white;
+  transform: scale(1.22);
+  transition: all 0.2s;
+}
+#c {
+  background-color: #0984e3;
+  transform: scale(1.22);
+  transition: all 0.2s;
+}
+#d {
+  background-color: #d63031;
+  transform: scale(1.22);
+  transition: all 0.2s;
+}
+#a {
+  background-color: #a29bfe;
+  transform: scale(1.22);
+  transition: all 0.2s;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#a:hover {
+  background-color: #d63031;
+  transform: scale(1.22);
+  transition: all 0.2s;
+}
+.oriento {
+  display: flex;
+  margin-top: 30px;
+  margin-right: 90px;
+  margin-left: 90px;
+  /* display: block; */
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+#lp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+#pl {
+  margin-left: 10px;
+}
