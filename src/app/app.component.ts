@@ -1,22 +1,29 @@
 import { Component } from '@angular/core';
 import { Todo } from './todo.js';
 import { NgModule } from '@angular/core';
-
-import { trigger } from '@angular/animations';
+import { roll } from './animate';
+import {
+  trigger,
+  transition,
+  style,
+  state,
+  animate,
+} from '@angular/animations';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  // animations: [
-  //   trigger('fade', [
-  //     transition('void => *', [
-  //       style({
-  //         backgroundColor: 'red',
-  //         opacity: 0,
-  //       }),
-  //       animate(2000),
-  //     ]),
-  //   ]),
-  // ],
+  animations: [
+    // trigger('fade', [
+    //   transition('void => *', [
+    //     style({
+    //       backgroundColor: '#dfe4ea',
+    //       opacity: 0.01,
+    //     }),
+    //     animate(500),
+    //   ]),
+    // ]),
+    roll,
+  ],
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
@@ -42,6 +49,6 @@ export class AppComponent {
     this.todoValue = '';
   }
   deleteItem(id: number) {
-    this.list = this.list.filter((item) => item.id != item.id);
+    this.list = this.list.filter((item) => item.id !== id);
   }
 }

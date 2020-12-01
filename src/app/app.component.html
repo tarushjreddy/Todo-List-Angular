@@ -18,16 +18,16 @@
     </button>
   </div>
   <!-- <hr id = "one"> -->
-  <div class="oriento">
+  <div   class="oriento">
     <ul>
      
       <li *ngFor="let item of list">
         <!-- (click)="deleteItem()" -->
-        <div id="lp">
+        <div @fade id="lp">
         {{item.value}}
           <div id="pl">
   
-        <button  @fade id="c" (click)="deleteItem(item.id)">Cancel</button>
+        <button   id="c" (click)="deleteItem(item.id)">Cancel</button>
         <button id="d"(click)="deleteItem(item.id)" >Done</button>
               </div>
                     </div>
